@@ -87,20 +87,19 @@ num1 = 64 * 3
 # Inside num2, store the result of 24 x 8
 num2 = 24 * 8
 # Check if num1 is different from num2 and store the result of that comparison in a variable called my_bool.
-# if num1 == num2
-#   print("they're the same solutions")
-# else:
-#   print("they're different")
+finale = (num1 == num2)
+# print(finale)
 ##############################logical operators##################################################
-my_bool = (55 == 10) and (5 == 2*3)
-print(my_bool)
 
-my_bool = 1 == 10 or 3 == 3
-print(my_bool)
+# my_bool = (55 == 10) and (5 == 2*3)
+# print(my_bool)
 
-text = "this sentence is short"
-my_bool= ('sentence' in text) or ('python' not in text)
-print(my_bool)
+# my_bool = 1 == 10 or 3 == 3
+# print(my_bool)
+
+# text = "this sentence is short"
+# my_bool= ('sentence' in text) or ('python' not in text)
+# print(my_bool)
 
 # Logical Operators Practice #1
 # Create three variables (num1, num2, and num3):
@@ -112,7 +111,8 @@ num2 = 72/2
 # Inside num3, store the value 48
 num3 = 48
 # Check if num1 is greater than num2, and less than num3. Store the result of that comparison in a variable called my_bool
-final = ( == 10) and (5 == 2*3)
+final = (num1 > num2) and (num1 < num3)
+print(final)
 
 
 
@@ -120,13 +120,14 @@ final = ( == 10) and (5 == 2*3)
 # Create three variables (num1, num2, and num3):
 
 # Inside num1, store the value 36
-
+num1 = 36
 # Inside num2, stores the result of the operation 72/2
-
+num2 = 72/2
 # Inside num3, store the value 48
-
+num3 = 48
 # Check if num1 is greater than num2, or less than num3. Store the result of that comparison in a variable called my_bool.
-
+my_bool = (num1 > num2) or (num1 < num3)
+print(my_bool)
 
 
 # Logical Operators Practice #3
@@ -137,6 +138,10 @@ final = ( == 10) and (5 == 2*3)
 # word2 = "technology"
 
 # are not found in the sentence below, and store the result (a boolean) in a variable called my_bool:
+text = "When something is important enough, you do it even if the odds are against you"
+my_bool= ('success' not in text) and ('technology' not in text)
+print(my_bool)
+
 
 # "When something is important enough, you do it even if the odds are against you" - Elon Musk
 
